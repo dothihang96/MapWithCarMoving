@@ -1,0 +1,14 @@
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\bin\Debug\netcoreapp2.2\WebSRCore.deps.json
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\bin\Debug\netcoreapp2.2\WebSRCore.runtimeconfig.json
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\bin\Debug\netcoreapp2.2\WebSRCore.runtimeconfig.dev.json
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\bin\Debug\netcoreapp2.2\WebSRCore.dll
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\bin\Debug\netcoreapp2.2\WebSRCore.pdb
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.csprojAssemblyReference.cache
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.csproj.CoreCompileInputs.cache
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.RazorAssemblyInfo.cache
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.RazorAssemblyInfo.cs
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.AssemblyInfoInputs.cache
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.AssemblyInfo.cs
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.RazorTargetAssemblyInfo.cache
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.dll
+D:\Build_School\Ben sent files\SignalRMoveCar\WebSRCore\WebSRCore\obj\Debug\netcoreapp2.2\WebSRCore.pdb

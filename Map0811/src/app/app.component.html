@@ -1,0 +1,125 @@
+<div style="height: 600px" leaflet [leafletOptions]="options" [leafletLayers]="layers" [leafletLayers]="routeA">
+</div>
+<div class="car-info" [@slideInOut]="infoState">
+  <div class="closex" (click)="toggleInfo()"><i class="fas fa-times"></i></div>
+  <div class="info">
+    <h2><i class="fas fa-shipping-fast"></i><b>目前運送狀態</b></h2>
+    <ul>
+      <li><i class="fas fa-user-tag"></i><b>駕駛員姓名：</b><span>林小明</span></li>
+      <li><i class="fas fa-phone"></i><b>駕駛員電話：</b><span>0987-654-321</span></li>
+    </ul>
+    <img src="https://icdn.dantri.com.vn/k:b78705f365/2016/02/29/img-5248-1456718536903/chan-dung-hoa-si-duy-nhat-cua-viet-nam-duoc-apple-chon-dong-hanh.JPG" alt="img" class="shipper-img">
+  </div>
+  <div class="customer-info">
+    <h3><img src="http://ku.90sjimg.com/element_origin_min_pic/16/11/08/660856785e1f4c736e500ac0d2617fa4.jpg" alt="box" class="cus-img"><b>運送包裹資訊</b></h3>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+          aria-controls="nav-home" aria-selected="true"><b>已配達</b></a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+          aria-controls="nav-profile" aria-selected="false"><b>到著任務</b></a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+          aria-controls="nav-contact" aria-selected="false"><b>發送任務</b></a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">編號</th>
+              <th scope="col">客戶姓名</th>
+              <th scope="col">地址</th>
+              <th scope="col">電話</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>文智</td>
+              <td>中壢市</td>
+              <td>0987456123</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>彥</td>
+              <td>新北市</td>
+              <td>0978456123</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>羊</td>
+              <td>中壢市</td>
+              <td>0978654123</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">編號</th>
+                  <th scope="col">客戶姓名</th>
+                  <th scope="col">地址</th>
+                  <th scope="col">電話</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Kuma</td>
+                  <td>中壢市</td>
+                  <td>0987456123</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>遠</td>
+                  <td>新北市</td>
+                  <td>0978456123</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>石頭</td>
+                  <td>中壢市</td>
+                  <td>0978654123</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">編號</th>
+                  <th scope="col">客戶姓名</th>
+                  <th scope="col">地址</th>
+                  <th scope="col">電話</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>嘉偉</td>
+                  <td>中壢市</td>
+                  <td>0987456123</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>寄彬</td>
+                  <td>新北市</td>
+                  <td>0978456123</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>艾琳</td>
+                  <td>中壢市</td>
+                  <td>0978654123</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+    </div>
+  </div>
+</div>
+<br>

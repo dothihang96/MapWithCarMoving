@@ -1,0 +1,80 @@
+
+.car-info{
+  position: absolute;
+  width: 45%;
+  background: rgba(255,255,255, 0.9);
+  height: 650px;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  z-index: 1000;
+  padding: 10px 40px;
+}
+
+.closex{
+  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-left: 90%;
+}
+.closex i{
+  cursor: pointer;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info ul li {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.info h2{
+  font-size: 1.7rem;
+}
+
+.info ul li b{
+  display: inline-block;
+  width: 30%;
+}
+
+.info ul li i{
+  display: inline-block;
+  width: 35px;
+  color: rgb(156, 149, 149);
+}
+
+.customer-info h3{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.customer-info table{
+  margin-top: 20px;
+}
+
+.customer-info table thead tr th{
+  border-top: transparent;
+}
+
+.cus-img{
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.shipper-img{
+  display: block;
+  width: 20%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: auto;
+  bottom: 0;
+  right: 10%;
+}
+.info{
+  position: relative;
+}
